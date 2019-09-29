@@ -15,6 +15,7 @@ import kotlinx.android.synthetic.main.fragment_detail.*
  * A simple [Fragment] subclass.
  */
 class DetailFragment : Fragment() {
+    private var dogUuid = 0
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -25,6 +26,10 @@ class DetailFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        arguments?.let {
+            dogUuid = DetailFragmentArgs.fromBundle(it).dogUuid
+            textView2.text = "Dog id is = "+dogUuid.toString()
+        }
         super.onViewCreated(view, savedInstanceState)
         buttonList.setOnClickListener {
             val action = DetailFragmentDirections.actionListFragment()
