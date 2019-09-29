@@ -35,6 +35,7 @@ class DetailFragment : Fragment() {
             val action = DetailFragmentDirections.actionListFragment()
             Navigation.findNavController(it).navigate(action)
             //
+            //
         }
     }
 
