@@ -34,6 +34,7 @@ class DetailFragment : Fragment() {
         buttonList.setOnClickListener {
             val action = DetailFragmentDirections.actionListFragment()
             Navigation.findNavController(it).navigate(action)
+            //
         }
     }
 
