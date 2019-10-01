@@ -8,9 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import androidx.navigation.Navigation
 
 import com.softcodeinfotech.dog.R
+import com.softcodeinfotech.dog.viewmodel.DetailViewModel
 import kotlinx.android.synthetic.main.fragment_detail.*
 
 /**

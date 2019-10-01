@@ -10,7 +10,7 @@ class ListViewModel : ViewModel() {
     val loading = MutableLiveData<Boolean>()
 
     fun refresh(){
-        val dog1 = DogBreed("1","Labradog","15","breedGroup","bredFor","temperament","null")
+        val dog1 = DogBreed("1","Labradog","11","breedGroup","bredFor","temperament","null")
         val dog2 = DogBreed("2","cat","15","breedGroup","bredFor","temperament","null")
         val dog3 = DogBreed("3","Suparco","15","breedGroup","bredFor","temperament","null")
 

@@ -1,4 +1,4 @@
-package com.softcodeinfotech.dog.view
+package com.softcodeinfotech.dog.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
